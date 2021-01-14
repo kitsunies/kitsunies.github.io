@@ -27,6 +27,7 @@ $(function () {
                     _replyto: email,
                     message: message,
                 },
+                dataType: "json",
                 cache: false,
                 success: function () {
                     // Success message
